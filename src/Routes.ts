@@ -1,6 +1,6 @@
 import { Application } from "express";
-import { pointsRouter } from "./Routes/PointsRoute";
-import { itemsRouter } from "./Routes/ItemsRoute";
+import { pointsRouter } from "./routes/PointsRoute";
+import { itemsRouter } from "./routes/ItemsRoute";
 
 export default class Routes{
     constructor(app:Application){
